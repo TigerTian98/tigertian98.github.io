@@ -71,13 +71,14 @@ body, html {
 	border-radius: 30%;
 	bottom: -5vh;
 	height: 5vh;
+	pointer-events: none;
 	position: fixed;
 	left: 0vw;
 	width: 100vw;
 }
 
 #container {
-	align-content: center;
+	align-content: start;
 	height: 90vh;
 	left: 10vw;
 	overflow-y: scroll;
